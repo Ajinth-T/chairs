@@ -1,0 +1,216 @@
+body{
+    margin: 0px;
+}
+.title{
+  display: none;
+text-align: center;
+font-family: "Manrope", sans-serif;
+font-size: 10rem;
+
+margin: 0px;
+padding-top: 107.2px;
+padding-bottom: 107.2px;
+color:white;
+
+}
+
+
+.title-background{
+  background-color: rgb(35, 35, 35);
+}
+h2{
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 75px;
+    text-decoration: underline 1px;
+}
+nav {
+    font-family: Arial, sans-serif;
+    display:flex;
+    justify-content: center;
+    height: 35px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    position: relative;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  nav ul li a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  #dropdown-products {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  #dropdown-products li {
+    width: 200px;
+  }
+  
+  #dropdown-products li a {
+    padding: 10px;
+    color: #000;
+    white-space: nowrap;
+  }
+  
+  #dropdown-products li a:hover {
+    background-color: #ddd;
+  }
+
+  .image1{
+    display: grid;
+    grid-template-columns: 640px 1fr ;
+    gap: 10px;
+  }
+
+  .img1{
+    display: none;
+  }
+
+  .img1:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+  }
+  
+
+  .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .info ul li{
+    list-style-type:circle;
+    font-size: 2rem;
+  }
+
+  .buy{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 20%;
+  }
+
+  .buy:hover{
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  .productinfo{
+    margin-bottom: 75px;
+  }
+  .discount{
+    display: flex;
+    font-family: "Josefin Slab", serif;
+    margin-top: 10px;
+    font-size: 3rem;
+    text-decoration: line-through 3px;
+  }
+  
+  .price{
+    display: flex;
+    font-family: "Josefin Slab", serif;
+    margin-top: 10px;
+    font-size: 3rem;
+    
+  }
+  img{
+    width: 640px;
+
+  }
+
+  span{
+    color: gold;
+  }
+  
+  .about{
+    display:flex;
+    justify-content: center;
+    font-size: 2rem;
+  }
+  hr{
+    margin: 0px;
+    border-bottom: 0px;
+  }
+
+  /* Popup styles */
+.popup {
+    display:none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 999; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  }
+  
+  .popup-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    max-width: 500px; /* Maximum width */
+    text-align: center;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  button.close-popup {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.close-popup:hover {
+    background-color: #ddd;
+  }
+
+  .logo{
+    width: 40px;
+  }
+
+  footer{
+    background-color: rgb(35, 35, 35) ;
+    color: #fff;
+  }
+
+  
